@@ -55,6 +55,7 @@ while(dayIndex < daysOpen){
                     workTime[personIndex+1] = workTime[personIndex+1] -1
                     positionIndex = positionIndex + 1
                     personIndex = personIndex + 1
+                    availability[personIndex+1,dayIndex+1] = 0 #removes availability of person on same day
                     scheduleIndex = scheduleIndex + 1
                     if(positionIndex > length(positions[1,])-1){
                         positionIndex = 0
