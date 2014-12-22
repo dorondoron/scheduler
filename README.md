@@ -19,3 +19,5 @@ new results which might not contain errors.
 The values one and zero are used as true and false values, please be sure
 to keep the standard. It's pretty easy to follow based on the example.
 This may change in the future.
+
+Created by: Kenneth Cross
